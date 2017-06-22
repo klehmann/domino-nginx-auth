@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Nginx Auth HTTP Servlet
+Bundle-SymbolicName: com.mindoo.nginx.auth;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.mindoo.nginx.auth.internal.NginxAuthServletActivator
+Bundle-Vendor: Mindoo GmbH
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.equinox.http.registry,
+ com.ibm.domino.napi,
+ com.ibm.commons
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: com.ibm.domino.osgi.core.context,
+ javax.servlet,
+ javax.servlet.http,
+ lotus.domino
+Bundle-ClassPath: .

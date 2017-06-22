@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.mindoo.nginx.auth_feature_1.0.0.201706191003.jar" id="com.mindoo.nginx.auth_feature" version="1.0.0.201706191003">
+      <category name="Mindoo"/>
+   </feature>
+   <category-def name="Mindoo" label="Mindoo"/>
+</site>

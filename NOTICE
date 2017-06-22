@@ -1,0 +1,6 @@
+domino-nginx-auth - Nginx auth_http servlet for IBM Domino Servers
+(c) Copyright 2017
+  Karsten Lehmann, Mindoo GmbH
+
+The class com.mindoo.nginx.auth.utils.HttpUtils of this project contains code copied from org.apache.http.client.utils.URLEncodedUtils
+which is licensed under Apache License 2.0 (urlDecode / urlEncode)
